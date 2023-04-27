@@ -11,3 +11,8 @@ s
 
 ## [test](https://aymeric-cucherousset.fr/symfony-6-tester-une-api/)
 ApiTestCase => class: ProductApiTest
+
+```shell
+composer require --dev symfony/browser-kit symfony/http-client
+php bin/phpunit #librairie de test
+```
