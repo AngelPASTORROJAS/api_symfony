@@ -10,7 +10,7 @@ s
 ## [docs api plateform](https://api-platform.com/docs/distribution/)
 
 ## [test](https://aymeric-cucherousset.fr/symfony-6-tester-une-api/)
-ApiTestCase => class: ProductApiTest
+ApiTestCase => class: [ProductApiTest](https://api-platform.com/docs/core/testing/)
 
 ```shell
 composer require --dev symfony/browser-kit symfony/http-client
