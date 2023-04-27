@@ -5,11 +5,20 @@ namespace App\Entity;
 use App\Repository\ProduitRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+
 use ApiPlatform\Metadata\ApiResource;
+use ApiPlatform\Metadata\Get;
+use ApiPlatform\Metadata\GetCollection;
+use ApiPlatform\Metadata\Post;
 
 #[ORM\Entity(repositoryClass: ProduitRepository::class)]
 #[ApiResource(
     paginationEnabled: false,
+    operations: [
+        new Get(),
+        new GetCollection(),
+        new Post()
+    ]
 )]
 class Produit
 {
