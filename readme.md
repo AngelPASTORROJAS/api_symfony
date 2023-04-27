@@ -8,3 +8,6 @@ on a utiliser sqlite : dans le .env on décommmente sqlite et on commente postgr
 ## [installation api plateform](https://api-platform.com/docs/core/getting-started/)
 s
 ## [docs api plateform](https://api-platform.com/docs/distribution/)
+
+## [test](https://aymeric-cucherousset.fr/symfony-6-tester-une-api/)
+ApiTestCase => class: ProductApiTest
